@@ -19,7 +19,7 @@
     width: 200px;
     height: 200px;
     background: rgb(39, 61, 134);
-
+    flex: 1 0 auto;
 }
 .child2{
     display: flex;
@@ -29,7 +29,6 @@
     width: 200px;
     height: 200px;
     background: rgb(172, 57, 53);
-    order: 2;
 }
 .child3{
     display: flex;
@@ -38,5 +37,4 @@
     width: 200px;
     height: 200px;
     background: rgb(149, 43, 140);
-    order: 1;
 }
