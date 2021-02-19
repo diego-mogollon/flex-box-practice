@@ -9,36 +9,34 @@
     height: 100vh;
     border: 20px solid rgb(0,0,0);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    
 }
 
 .child1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border-radius: 50px;
     width: 200px;
     height: 200px;
     background: rgb(39, 61, 134);
+
+}
+.child2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.child2{
     border-radius: 100px;
     width: 200px;
     height: 200px;
     background: rgb(172, 57, 53);
+    order: 2;
+}
+.child3{
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.child3{
     width: 200px;
     height: 200px;
     background: rgb(149, 43, 140);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    order: 1;
 }
