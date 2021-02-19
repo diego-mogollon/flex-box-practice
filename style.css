@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 100vh;
+    border: 20px solid rgb(0,0,0);
+}
